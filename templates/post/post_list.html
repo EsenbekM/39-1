@@ -5,8 +5,13 @@
 
 {% for post in posts %}
     <div>
-        <img src="{{ post.image }}">
+        <img src="/media/{{ post.image }}" width="300">
         <h2>{{ post.title }} - {{ post.rate }}</h2>
+        <p>
+            {% for tag in post.tags.all %}
+                <a href="/tags/{{ tag.id }}">{{ tag.title }}</a>
+            {% endfor %}
+        </p>
         <p>
             {{ post.text }}
         </p>

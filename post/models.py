@@ -7,6 +7,19 @@ ORM - Object-Relational Mapping - это концепция,
 from django.db import models
 
 
+class Tag(models.Model):
+    title = models.CharField(max_length=155)
+
+    def __str__(self):
+        return f"{self.title}"
+    
+    class Meta:
+        verbose_name = 'Тег'
+        verbose_name_plural = 'Теги'
+        db_table = 'tag'
+        ordering = ['title']
+
+
 class Post(models.Model):
     image = models.ImageField(upload_to='meme_photos/', null=True, blank=True)
     title = models.CharField(max_length=255)
@@ -14,6 +27,11 @@ class Post(models.Model):
     rate = models.FloatField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    tags = models.ManyToManyField(
+        Tag, 
+        related_name='posts', # default: post_set
+        blank=True
+    )
 
     def __str__(self):
         return f"{self.title} - {self.created_at}"
@@ -23,3 +41,44 @@ class Post(models.Model):
         verbose_name_plural = 'Посты'
         db_table = 'post'
         ordering = ['-created_at']
+
+
+class Comment(models.Model):
+    text = models.TextField()
+    post = models.ForeignKey(
+        Post,
+        on_delete=models.CASCADE,
+        related_name='comments', # default: comment_set
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.text}"
+    
+    class Meta:
+        verbose_name = 'Комментарий'
+        verbose_name_plural = 'Комментарии'
+        db_table = 'comment'
+        ordering = ['-created_at']
+
+
+
+# class PostDetails(models.Model):
+#     post = models.OneToOneField(
+#         Post,
+#         on_delete=models.CASCADE,
+#     )
+#     description = models.TextField()
+#     views = models.IntegerField(default=0)
+#     likes = models.IntegerField(default=0)
+#     dislikes = models.IntegerField(default=0)
+
+#     def __str__(self):
+#         return f"{self.post.title} - {self.views} - {self.likes} - {self.dislikes}"
+    
+#     class Meta:
+#         verbose_name = 'Детали поста'
+#         verbose_name_plural = 'Детали постов'
+#         db_table = 'post_details'
+#         ordering = ['-views']

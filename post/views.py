@@ -117,8 +117,7 @@ def post_detail_view(request, post_id):
             post = Post.objects.get(id=post_id) # Получаем объект модели Post по id
         except Post.DoesNotExist:
             return HttpResponse('Post not found', status=404)
-        
-        context = {'post': post}
+
+        context = {'post': post} 
 
         return render(request, 'post/post_detail.html', context)
-    

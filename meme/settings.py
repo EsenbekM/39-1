@@ -114,8 +114,16 @@ USE_I18N = True
 # USE_TZ - это переменная, которая включает или отключает использование часовых поясов.
 USE_TZ = True
 
-# TODO
+# STATIC_URL - это URL-адрес статических файлов, который используется в проекте Django.
 STATIC_URL = "static/"
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 # DEFAULT_AUTO_FIELD - это поле по умолчанию для моделей Django.
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
