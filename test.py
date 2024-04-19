@@ -1,8 +1,12 @@
 
-
 def sum(a, b):
-    print(a + b)
-    
+    return a + b
 
-a = sum(1, 2)
+dct = {
+    'c': 1,
+    'b': 2,
+}
 
+
+s = sum(**dct)
+print(s)  # 3

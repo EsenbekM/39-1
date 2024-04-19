@@ -1,4 +1,9 @@
+{% extends 'components/navbar.html' %}
+
 {% load static %}
+
+
+{% block content %}
 
     <img src="{% static 'logo.webp' %}" alt="main image" width="100">
 
@@ -17,3 +22,7 @@
             </p>
         {% endfor %}
     </h2>
+
+
+
+{% endblock %}

@@ -66,9 +66,10 @@ Field lookups:
 
 '''
 
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 
 from post.models import Post
+from post.forms import PostForm, PostForm2
 
 
 def hello_view(request):
@@ -121,3 +122,19 @@ def post_detail_view(request, post_id):
         context = {'post': post} 
 
         return render(request, 'post/post_detail.html', context)
+
+
+def post_create_view(request):
+    if request.method == 'GET':
+        form = PostForm2()
+        return render(request, 'post/post_create.html', {'form': form})
+    elif request.method == 'POST':
+        form = PostForm2(request.POST, request.FILES)
+
+        if form.is_valid():
+            form.save()
+
+            return redirect('post_list_view')
+
+        return render(request, 'post/post_create.html', {'form': form})
+        
