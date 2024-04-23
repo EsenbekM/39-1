@@ -1,0 +1,106 @@
+Watching for file changes with StatReloader
+"GET /posts/create/ HTTP/1.1" 200 3577
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /media/meme_photos/images.jpg HTTP/1.1" 304 0
+"GET /media/meme_photos/images-4.jpg HTTP/1.1" 304 0
+"GET /media/meme_photos/scale_1200.jpg HTTP/1.1" 304 0
+"GET /posts/create/ HTTP/1.1" 200 3577
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/13/ HTTP/1.1" 200 2560
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/13/ HTTP/1.1" 200 2560
+"GET /media/meme_photos/images.jpg HTTP/1.1" 304 0
+/Users/esenbekmambetov/TEACH/39-1/meme/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /posts/13/
+"GET /posts/13/ HTTP/1.1" 403 0
+Forbidden: /posts/13/
+"GET /posts/13/ HTTP/1.1" 403 0
+Forbidden: /posts/13/
+"GET /posts/13/ HTTP/1.1" 403 0
+Forbidden: /
+"GET / HTTP/1.1" 403 0
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/meme/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2671
+"GET /posts/create/ HTTP/1.1" 200 3577
+"GET /posts/ HTTP/1.1" 200 8341
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /posts2/ HTTP/1.1" 200 8341
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /media/meme_photos/images.jpg HTTP/1.1" 304 0
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 200 8341
+/Users/esenbekmambetov/TEACH/39-1/meme/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 200 8341
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 200 8341
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 200 8341
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 8341
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 302 0
+"GET /posts2/ HTTP/1.1" 200 8341
+"GET /posts2/ HTTP/1.1" 200 8341
+"GET /posts/ HTTP/1.1" 302 0
+"GET /posts2/ HTTP/1.1" 200 8341
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/create/ HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/middleware.py changed, reloading.
+Watching for file changes with StatReloader

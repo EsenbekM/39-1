@@ -66,7 +66,11 @@ Field lookups:
 
 '''
 
+from typing import Any
+from django.forms.models import BaseModelForm
 from django.shortcuts import render, HttpResponse, redirect
+from django.views import View
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 
 from post.models import Post
 from post.forms import PostForm, PostForm2
@@ -74,6 +78,11 @@ from post.forms import PostForm, PostForm2
 
 def hello_view(request):
     if request.method == 'GET':
+        return HttpResponse('Hello, World!')
+
+
+class HelloView(View):
+    def get(self, request):
         return HttpResponse('Hello, World!')
 
 
@@ -102,15 +111,44 @@ def main_view(request):
    if request.method == 'GET':
        return render(request, 'main.html', {'mock_data': mock_data})
 
+
+class PostListView(ListView):
+    model = Post
+    template_name = 'post/post_list.html' # default: <app_label>/<model_name>_list.html
+    context_object_name = 'posts' # default: object_list
+    # {'posts': posts}
+
+    def get_context_data(self, **kwargs: Any) -> dict:
+        context = super().get_context_data(**kwargs) # {'posts': posts}
+        context['name'] = "Esen"
+        return context
     
+    def get_queryset(self):
+        posts = Post.objects.all()  # .exclude(image='')
+
+        return posts
+
+
 def post_list_view(request):
     if request.method == 'GET':
         posts = Post.objects.all()
 
-        context = {'posts': posts}
+        context = {'posts': posts, 'name': "Esen"}
 
         return render(request, 'post/post_list.html', context)
     
+
+class PostDetailView(DetailView):
+    model = Post
+    # template_name = 'post/post_detail.html' # default: <app_label>/<model_name>_detail.html
+    context_object_name = 'post' # default: object
+    pk_url_kwarg = 'post_id' # default: pk
+
+    def get_context_data(self, **kwargs: Any) -> dict:
+        context = super().get_context_data(**kwargs)
+        context['name'] = "Esen"
+        return context
+
 
 def post_detail_view(request, post_id):
     if request.method == 'GET':
@@ -122,6 +160,19 @@ def post_detail_view(request, post_id):
         context = {'post': post} 
 
         return render(request, 'post/post_detail.html', context)
+
+
+class PostCreateView(CreateView):
+    model = Post
+    form_class = PostForm2
+    template_name = 'post/post_create.html' # default: <app_label>/<model_name>_form.html
+    success_url = '/posts/'
+
+    # def get_absolute_url(self):
+    #     return reverse('post_list_view2')
+
+    # def get_form_class(self) -> type[BaseModelForm]:
+    #     return super().get_form_class()
 
 
 def post_create_view(request):
@@ -138,3 +189,37 @@ def post_create_view(request):
 
         return render(request, 'post/post_create.html', {'form': form})
         
+
+class PostUpdateView(UpdateView):
+    model = Post
+    form_class = PostForm2
+    template_name = 'post/post_update.html'
+    context_object_name = 'post'
+    pk_url_kwarg = 'post_id'
+    success_url = '/posts/'
+
+
+def post_update_view(request, post_id):
+    try:
+        post = Post.objects.get(id=post_id)
+    except Post.DoesNotExist:
+        return HttpResponse('Post not found', status=404)
+
+    if request.method == 'GET':
+        form = PostForm2(instance=post)
+
+        context = {'form': form}
+
+        return render(request, 'post/post_update.html', context)
+    
+    elif request.method == 'POST':
+        form = PostForm2(request.POST, request.FILES, instance=post)
+
+        if form.is_valid():
+            form.save()
+
+            return redirect(f'/posts/{post_id}/')
+
+        return render(request, 'post/post_update.html', {'form': form})
+
+

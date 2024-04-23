@@ -47,6 +47,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware", # Промежуточная программа аутентификации Django.
     "django.contrib.messages.middleware.MessageMiddleware", # Промежуточная программа сообщений Django.
     "django.middleware.clickjacking.XFrameOptionsMiddleware", # Промежуточная программа XFrameOptions Django.
+    "post.middleware.URLRewriteMiddleware",
 ]
 
 # ROOT_URLCONF - это корневой URL-адрес проекта Django.
@@ -127,3 +128,23 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 # DEFAULT_AUTO_FIELD - это поле по умолчанию для моделей Django.
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": BASE_DIR / "django.log",
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["file"],
+            "level": "INFO",
+            "propagate": True, # propagate - это переменная, которая включает или отключает передачу сообщений логгера.
+        },
+    },
+}
