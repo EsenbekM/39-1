@@ -1,0 +1,16 @@
+Request: GET /posts/
+Response: 200
+Request: GET /posts/create/
+Response: 200
+Request: GET /
+Response: 200
+Request: GET /posts/
+Response: 200
+Request: GET /posts/12
+Response: 404
+Request: GET /posts/12/
+Response: 200
+Request: GET /media/meme_photos/frog_0KVNHAa.jpg
+Response: 304
+Request: GET /posts/12/
+Response: 200

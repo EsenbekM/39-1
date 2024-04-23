@@ -47,6 +47,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware", # Промежуточная программа аутентификации Django.
     "django.contrib.messages.middleware.MessageMiddleware", # Промежуточная программа сообщений Django.
     "django.middleware.clickjacking.XFrameOptionsMiddleware", # Промежуточная программа XFrameOptions Django.
+    "post.middleware.SimpleMiddleware", 
+    "post.middleware.BlacklistMiddleware", 
 ]
 
 # ROOT_URLCONF - это корневой URL-адрес проекта Django.
@@ -127,3 +129,23 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 # DEFAULT_AUTO_FIELD - это поле по умолчанию для моделей Django.
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+LOGGING = { # Настройки логирования Django.
+    'version': 1, # Версия логирования Django.
+    'disable_existing_loggers': False, # Отключить существующих логгеров Django.
+    'handlers': { # Обработчики логирования Django.
+        'file': { # Файловый обработчик логирования Django.
+            'level': 'INFO', # Уровень логирования Django. (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+            'class': 'logging.FileHandler', # Класс обработчика логирования Django.
+            'filename': BASE_DIR / 'django.log', # Имя файла логирования Django.
+        },
+    },
+    'loggers': { # Логгеры Django.
+        'post': { # Логгер post.
+            'handlers': ['file'], # Обработчики логирования Django.
+            'level': 'INFO', # Уровень логирования Django. (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+            'propagate': True, # Распространение логирования Django. - это передача сообщения логгера родительскому логгеру.
+        },
+    },
+}

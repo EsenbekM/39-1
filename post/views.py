@@ -138,3 +138,22 @@ def post_create_view(request):
 
         return render(request, 'post/post_create.html', {'form': form})
         
+
+def post_update_view(request, post_id):
+    try:
+        post = Post.objects.get(id=post_id)
+    except Post.DoesNotExist:
+        return HttpResponse('Post not found', status=404)
+
+    if request.method == 'GET':
+        form = PostForm2(instance=post)
+        return render(request, 'post/post_update.html', {'form': form, 'post': post})
+    elif request.method == 'POST':
+        form = PostForm2(request.POST, request.FILES, instance=post)
+
+        if form.is_valid():
+            form.save()
+
+            return redirect('post_detail_view', post_id=post_id)
+
+        return render(request, 'post/post_update.html', {'form': form, 'post': post})
