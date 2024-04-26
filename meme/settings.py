@@ -36,6 +36,7 @@ INSTALLED_APPS = [
 
     # Custom apps
     "post", # "post.apps.PostConfig"
+    "user", # "user.apps.UserConfig"
 ]
 
 # MIDDLEWARE - это список всех промежуточных программ, которые используются в проекте Django.
@@ -129,6 +130,7 @@ MEDIA_ROOT = BASE_DIR / "media"
 # DEFAULT_AUTO_FIELD - это поле по умолчанию для моделей Django.
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+USER_MODEL = "user.User"
 
 LOGGING = {
     "version": 1,

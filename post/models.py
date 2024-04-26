@@ -20,7 +20,19 @@ class Tag(models.Model):
         ordering = ['title']
 
 
+class PostManager(models.Manager):
+    def create_post(self, title, text, image):
+        post = self.create(title=title.upper(), text=text, image=image)
+        return post
+
+
 class Post(models.Model):
+    author = models.ForeignKey(
+        'auth.User',
+        on_delete=models.CASCADE,
+        related_name='posts', # default: user_set
+        null=True,
+    )
     image = models.ImageField(upload_to='meme_photos/', null=True, blank=True)
     title = models.CharField(max_length=255)
     text = models.TextField(null=True, blank=True)
@@ -32,6 +44,8 @@ class Post(models.Model):
         related_name='posts', # default: post_set
         blank=True
     )
+
+    objects = PostManager()
 
     def __str__(self):
         return f"{self.title} - {self.created_at}"

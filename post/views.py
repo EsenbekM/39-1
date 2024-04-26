@@ -168,11 +168,16 @@ class PostCreateView(CreateView):
     template_name = 'post/post_create.html' # default: <app_label>/<model_name>_form.html
     success_url = '/posts/'
 
-    # def get_absolute_url(self):
-    #     return reverse('post_list_view2')
+    def get(self, request, *args, **kwargs):
+        if not request.user.is_authenticated:
+            return redirect('login_view')
+        form = self.get_form()
+        return self.render_to_response({'form': form})
 
-    # def get_form_class(self) -> type[BaseModelForm]:
-    #     return super().get_form_class()
+    def form_valid(self, form: BaseModelForm) -> Any:
+        form.instance.author = self.request.user
+        self.object = form.save()
+        return redirect(self.get_success_url())
 
 
 def post_create_view(request):
@@ -183,7 +188,13 @@ def post_create_view(request):
         form = PostForm2(request.POST, request.FILES)
 
         if form.is_valid():
-            form.save()
+            # form.save()
+            Post.objects.create_post(
+                title=form.cleaned_data['title'],
+                text=form.cleaned_data['text'],
+                image=form.cleaned_data['image'],
+                # author=request.user
+            )
 
             return redirect('post_list_view')
 
