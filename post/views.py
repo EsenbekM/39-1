@@ -64,16 +64,40 @@ Field lookups:
 21. iregex - регулярное выражение без учета регистра.
 Документация: https://docs.djangoproject.com/en/4.2/ref/models/querysets/#field-lookups
 
+Qurey Parameters - это параметры запроса, которые передаются в URL-адресе.
+https://exaple.com?name=Esen&age=18&city=Almaty
+
+Paggination:
+
+        # posts = [post1, post2, post3, post4, post5, post6, post7, post8, post9, post10]
+        # limit = 3, page = 1
+
+        # Formula:
+        # start = (page - 1) * limit
+        # end = page * limit
+
+        # Example 1:
+        # page = 1, limit = 3
+        # start = (1 - 1) * 3 = 0
+        # end = 1 * 3 = 3
+        # posts = posts[0:3]
+
+        # Example 2:
+        # page = 3, limit = 3
+        # start = (3 - 1) * 3 = 6
+        # end = 3 * 3 = 9
+        # posts = posts[6:9]
 '''
 
 from typing import Any
 from django.forms.models import BaseModelForm
+from django.db.models import Q
 from django.shortcuts import render, HttpResponse, redirect
 from django.views import View
 from django.views.generic import ListView, DetailView, CreateView, UpdateView
 
 from post.models import Post
-from post.forms import PostForm, PostForm2
+from post.forms import PostForm, PostForm2, SearchForm
 
 
 def hello_view(request):
@@ -131,9 +155,42 @@ class PostListView(ListView):
 
 def post_list_view(request):
     if request.method == 'GET':
-        posts = Post.objects.all()
+        search = request.GET.get('search') # None
+        tags = request.GET.getlist('tags') # [id`1, id`2, id`3]
+        ordering = request.GET.get('ordering') # 'title'
+        page = int(request.GET.get('page', 1)) # 1
 
-        context = {'posts': posts, 'name': "Esen"}
+        search_form = SearchForm(request.GET)
+        posts = Post.objects.all().select_related('author').prefetch_related('tags')
+        # SELECT * FROM post_post JOIN auth_user ON post_post.author_id = auth_user.id
+
+        if search:
+            # posts = posts.filter(title__icontains=search) | posts.filter(text__icontains=search)
+            posts = posts.filter(
+                Q(title__icontains=search) | Q(text__icontains=search)
+                )
+        if tags:
+            # Если тэги постов содержат хотя бы один из выбранных ID
+            posts = posts.filter(tags__id__in=tags).distinct()
+
+        if ordering:
+            posts = posts.order_by(ordering)
+
+        limit = 4
+        max_pages = posts.count() / limit
+        # max_pages = 16 / 5 = 3.2
+        # round(3.2) = 3 < 3.2 = 3 + 1 = 4
+        if round(max_pages) < max_pages:
+            max_pages = round(max_pages) + 1
+        else:
+            max_pages = round(max_pages)
+
+        start = (page - 1) * limit
+        end = page * limit
+
+        posts = posts[start:end]
+
+        context = {'posts': posts, 'name': "Esen", 'search_form': search_form, 'max_pages': range(1, max_pages + 1)}
 
         return render(request, 'post/post_list.html', context)
     

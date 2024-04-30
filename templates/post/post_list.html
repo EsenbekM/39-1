@@ -7,6 +7,11 @@
     Posts {{ name }}
 </h1>
 
+<form action="/posts/" method="get">
+    {{ search_form.as_p }}
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
     {% for post in posts %}
     <div class="card" style="width: 18rem;">
@@ -17,6 +22,7 @@
         {% endif %}
         <div class="card-body">
         <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text">{{ post.text }}</p>
         <h6>{{ post.author }}</h6>
         </div>
         <ul class="list-group list-group-flush">
@@ -30,4 +36,17 @@
     </div>
     {% endfor %}
 </div>
+
+<!-- Paggination -->
+<div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
+    {% for i in max_pages %}
+        <a href="/posts/?page={{ i }}" class="btn btn-primary">
+            {{ i }}
+        </a>
+    {% endfor %}
+</div>
 {% endblock %}
+
+
+
+

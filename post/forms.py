@@ -1,6 +1,6 @@
 from django import forms
 
-from post.models import Post
+from post.models import Post, Tag
 
 
 class PostForm(forms.Form):
@@ -90,4 +90,42 @@ class PostForm2(forms.ModelForm):
         if rate < 0:
             raise forms.ValidationError('Оценка не может быть отрицательной')
         return rate
+    
+
+class SearchForm(forms.Form):
+    search = forms.CharField(
+        required=False,
+        max_length=100,
+        min_length=3,
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': 'Поиск',
+                'class': 'form-control'
+            }
+        )
+    )
+    tags = forms.ModelMultipleChoiceField(
+        required=False,
+        queryset=Tag.objects.all(),
+        widget=forms.CheckboxSelectMultiple
+    )
+
+    orderings = (
+        ('title', 'По заголовку'),
+        ('-title', 'По заголовку (обратно)'),
+        ('rate', 'По оценке'),
+        ('-rate', 'По оценке (обратно)'),
+        ('created_at', 'По дате создания'),
+        ('-created_at', 'По дате создания (обратно)')
+    )
+
+    ordering = forms.ChoiceField(
+        required=False,
+        choices=orderings,
+        widget=forms.Select(
+            attrs={
+                'class': 'form-control'
+            }
+        )
+    )
     
