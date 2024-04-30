@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles", # Приложение статических файлов Django.
 
     # Third-party apps
+    "debug_toolbar",
 
     # Custom apps
     "post", # "post.apps.PostConfig"
@@ -48,7 +49,10 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware", # Промежуточная программа аутентификации Django.
     "django.contrib.messages.middleware.MessageMiddleware", # Промежуточная программа сообщений Django.
     "django.middleware.clickjacking.XFrameOptionsMiddleware", # Промежуточная программа XFrameOptions Django.
-    "post.middleware.URLRewriteMiddleware",
+    # "post.middleware.URLRewriteMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
+    "querycount.middleware.QueryCountMiddleware",
+
 ]
 
 # ROOT_URLCONF - это корневой URL-адрес проекта Django.
@@ -130,7 +134,11 @@ MEDIA_ROOT = BASE_DIR / "media"
 # DEFAULT_AUTO_FIELD - это поле по умолчанию для моделей Django.
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-USER_MODEL = "user.User"
+# USER_MODEL = "user.User"
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
 
 LOGGING = {
     "version": 1,

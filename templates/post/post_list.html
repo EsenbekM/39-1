@@ -7,6 +7,12 @@
     Posts {{ name }}
 </h1>
 
+<form action="/posts/" method="get">
+    {{ post_filter_form.as_p }}
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+    </div>
+</form>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
     {% for post in posts %}
     <div class="card" style="width: 18rem;">

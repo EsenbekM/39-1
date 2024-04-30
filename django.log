@@ -1508,3 +1508,1266 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /Users/esenbekmambetov/TEACH/39-1/user/views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12286
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/logo.webp HTTP/1.1" 200 53914
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 13728
+"GET /posts/ HTTP/1.1" 200 19671
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/default.png HTTP/1.1" 200 121355
+"GET /media/meme_photos/photo16887437560.webp HTTP/1.1" 200 13718
+"GET /media/meme_photos/images.jpg HTTP/1.1" 200 15771
+"GET /media/meme_photos/frog_0KVNHAa.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/images-4.jpg HTTP/1.1" 200 7295
+"GET /media/meme_photos/scale_1200.jpg HTTP/1.1" 200 71673
+"GET /media/meme_photos/frog_ebhWlta.jpg HTTP/1.1" 200 9920
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /media/meme_photos/frog.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/1653560579164255219_Mw2SlXD.jpg HTTP/1.1" 200 236424
+"GET /media/meme_photos/0_FGz8gU3nQILSesYT.png HTTP/1.1" 200 82232
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /media/meme_photos/images-3.jpg HTTP/1.1" 200 6273
+"GET /media/meme_photos/54b8cf289af22fe3534bfa5e3e412741.jpg HTTP/1.1" 200 66198
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=HistoryPanel HTTP/1.1" 200 22718
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=VersionsPanel HTTP/1.1" 200 621
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=TimerPanel HTTP/1.1" 200 1376
+"GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=SettingsPanel HTTP/1.1" 200 25986
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=HeadersPanel HTTP/1.1" 200 3918
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=RequestPanel HTTP/1.1" 200 1358
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=SQLPanel HTTP/1.1" 200 391721
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=StaticFilesPanel HTTP/1.1" 200 33254
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=TemplatesPanel HTTP/1.1" 200 5879
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=CachePanel HTTP/1.1" 200 1413
+"GET /__debug__/render_panel/?store_id=61a4c4c250784335b90552deb7f7ab9b&panel_id=SignalsPanel HTTP/1.1" 200 2196
+"GET /posts/ HTTP/1.1" 200 20074
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=115d9d6faa6e4391858d33976b31a942&panel_id=SQLPanel HTTP/1.1" 200 402064
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 19673
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /media/meme_photos/photo16887437560.webp HTTP/1.1" 200 13718
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /media/meme_photos/images-4.jpg HTTP/1.1" 200 7295
+"GET /media/meme_photos/images.jpg HTTP/1.1" 200 15771
+"GET /media/meme_photos/frog_0KVNHAa.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/scale_1200.jpg HTTP/1.1" 200 71673
+"GET /media/meme_photos/frog.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/frog_ebhWlta.jpg HTTP/1.1" 200 9920
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /media/meme_photos/images-3.jpg HTTP/1.1" 200 6273
+"GET /media/meme_photos/1653560579164255219_Mw2SlXD.jpg HTTP/1.1" 200 236424
+"GET /media/meme_photos/0_FGz8gU3nQILSesYT.png HTTP/1.1" 200 82232
+"GET /media/meme_photos/54b8cf289af22fe3534bfa5e3e412741.jpg HTTP/1.1" 200 66198
+"GET /posts/ HTTP/1.1" 200 19671
+/Users/esenbekmambetov/TEACH/39-1/meme/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 19670
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=332d93258de54180a7487b4eae90cb0f&panel_id=SQLPanel HTTP/1.1" 200 39944
+"GET /posts/15 HTTP/1.1" 301 0
+"GET /posts/15/ HTTP/1.1" 200 12105
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /posts/ HTTP/1.1" 200 19670
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 13546
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 19922
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /posts/ HTTP/1.1" 200 20009
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /media/meme_photos/photo16887437560.webp HTTP/1.1" 200 13718
+"GET /media/meme_photos/frog_ebhWlta.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/scale_1200.jpg HTTP/1.1" 200 71673
+"GET /media/meme_photos/frog_0KVNHAa.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/images.jpg HTTP/1.1" 200 15771
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /media/meme_photos/images-4.jpg HTTP/1.1" 200 7295
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /media/meme_photos/1653560579164255219_Mw2SlXD.jpg HTTP/1.1" 200 236424
+"GET /media/meme_photos/frog.jpg HTTP/1.1" 200 9920
+"GET /media/meme_photos/images-3.jpg HTTP/1.1" 200 6273
+"GET /media/meme_photos/0_FGz8gU3nQILSesYT.png HTTP/1.1" 200 82232
+"GET /media/meme_photos/54b8cf289af22fe3534bfa5e3e412741.jpg HTTP/1.1" 200 66198
+"GET /posts/ HTTP/1.1" 200 20038
+"GET /posts/ HTTP/1.1" 200 20026
+"GET /posts/ HTTP/1.1" 200 20038
+"GET /posts/ HTTP/1.1" 200 20064
+"GET /posts/ HTTP/1.1" 200 20009
+"GET /posts/?search=ewffwef HTTP/1.1" 200 20024
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /posts/?search=ewffwef HTTP/1.1" 200 20593
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /posts/?tag=3 HTTP/1.1" 200 20584
+"GET /posts/?tag=3 HTTP/1.1" 200 20740
+"GET /posts/?tag=3 HTTP/1.1" 200 20740
+"GET /posts/?tag=3 HTTP/1.1" 200 20740
+"GET /posts/?tag=3 HTTP/1.1" 200 20743
+"GET /posts/?tag=3 HTTP/1.1" 200 20743
+"GET /posts/?tag=3 HTTP/1.1" 200 20743
+"GET /posts/?tag=3 HTTP/1.1" 200 20743
+"GET /posts/?tag=request.GET.tag HTTP/1.1" 200 20757
+"GET /posts/?tag=request.GET.tag HTTP/1.1" 200 20757
+"GET /posts/?tag=request.GET.tag HTTP/1.1" 200 20757
+"GET /posts/?tag=request.GET.tag HTTP/1.1" 200 20757
+"GET /posts/?tag= HTTP/1.1" 200 20697
+"GET /posts/?tag= HTTP/1.1" 200 20697
+"GET /posts/?tag= HTTP/1.1" 200 20685
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /posts/?tag=3 HTTP/1.1" 200 20687
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 138, in post_list_view
+    return render(request, 'post/post_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(id=request.GET.tag).first.title' from 'tags.objects.filter(id=request.GET.tag).first.title'
+"GET /posts/?tag=3 HTTP/1.1" 500 235472
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?tag=3 HTTP/1.1" 200 20737
+"GET /posts/?tag=1 HTTP/1.1" 200 20734
+"GET /posts/?tag=1 HTTP/1.1" 200 20734
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 139, in post_list_view
+    selected_tag = None if tag == 'all' else tags.get(id=tag)
+                                             ^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+post.models.Tag.DoesNotExist: Tag matching query does not exist.
+"GET /posts/ HTTP/1.1" 500 81626
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20729
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'all'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 139, in post_list_view
+    selected_tag = None if not tag else tags.get(id=tag)
+                                        ^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'all'.
+"GET /posts/?tag=all HTTP/1.1" 500 138215
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'context' where it is not associated with a value
+"GET /posts/ HTTP/1.1" 500 77650
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'context' where it is not associated with a value
+"GET /posts/ HTTP/1.1" 500 77648
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?tag=1 HTTP/1.1" 200 20503
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?tag=1 HTTP/1.1" 200 19998
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 54, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 252, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelMultipleChoiceField' object has no attribute 'value_from_datadict'
+"GET /posts/?tag=1 HTTP/1.1" 500 229146
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 54, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 252, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelMultipleChoiceField' object has no attribute 'value_from_datadict'
+"GET /posts/?tag=1 HTTP/1.1" 500 229146
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 54, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 252, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelMultipleChoiceField' object has no attribute 'value_from_datadict'
+"GET /posts/?tag=1 HTTP/1.1" 500 229146
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'context' where it is not associated with a value
+"GET /posts/ HTTP/1.1" 500 77742
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 142, in post_list_view
+    return render(request, 'post/post_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 54, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 252, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelMultipleChoiceField' object has no attribute 'value_from_datadict'
+"GET /posts/ HTTP/1.1" 500 230139
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/post/views.py", line 143, in post_list_view
+    return render(request, 'post/post_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/template/base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/utils.py", line 54, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 252, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/esenbekmambetov/TEACH/39-1/venv/lib/python3.11/site-packages/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelMultipleChoiceField' object has no attribute 'value_from_datadict'
+"GET /posts/ HTTP/1.1" 500 230147
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20098
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20118
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20269
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20376
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20460
+"GET /posts/ HTTP/1.1" 200 20460
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20276
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20516
+"GET /posts/ HTTP/1.1" 200 20515
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /posts/ HTTP/1.1" 200 20469
+"GET /posts/?search=&tags=1&tags=3 HTTP/1.1" 200 20498
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=&tags=1&tags=3 HTTP/1.1" 200 20498
+"GET /posts/?search=&tags=1&tags=3 HTTP/1.1" 200 20498
+"GET /posts/?search=efw&tags=1&tags=3 HTTP/1.1" 200 20513
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20519
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20519
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20695
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20860
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20860
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20862
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20781
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3 HTTP/1.1" 200 20793
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=rate HTTP/1.1" 200 20820
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=rate HTTP/1.1" 200 20808
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=rate HTTP/1.1" 200 21005
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=rate HTTP/1.1" 200 20943
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=created_at HTTP/1.1" 200 20948
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=created_at HTTP/1.1" 200 13212
+"GET /posts/?search=efwrfw&tags=1&tags=3&ordering=created_at HTTP/1.1" 200 13212
+"GET /posts/ HTTP/1.1" 200 20948
+"GET /posts/ HTTP/1.1" 200 20948
+/Users/esenbekmambetov/TEACH/39-1/post/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/ HTTP/1.1" 200 20831
+"GET /posts/?search=a HTTP/1.1" 200 15616
+"GET /posts/?search=a&tags=1 HTTP/1.1" 200 14255
+"GET /posts/?search=a&tags=1&tags=3 HTTP/1.1" 200 14867
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=a&tags=1&tags=3 HTTP/1.1" 200 14274
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=a&tags=1&tags=3&ordering=created_at HTTP/1.1" 200 14307
+"GET /posts/?search=a&tags=1&tags=3&ordering=rate HTTP/1.1" 200 14300
+"GET /posts/?search=a&tags=1&tags=3&ordering=rate HTTP/1.1" 200 14300
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /posts/?search=a&tags=1&tags=3&ordering=rate HTTP/1.1" 200 14300
+/Users/esenbekmambetov/TEACH/39-1/post/views.py changed, reloading.
+Watching for file changes with StatReloader

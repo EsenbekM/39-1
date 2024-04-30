@@ -68,12 +68,13 @@ Field lookups:
 
 from typing import Any
 from django.forms.models import BaseModelForm
+from django.db.models import Q
 from django.shortcuts import render, HttpResponse, redirect
 from django.views import View
 from django.views.generic import ListView, DetailView, CreateView, UpdateView
 
-from post.models import Post
-from post.forms import PostForm, PostForm2
+from post.models import Post, Tag
+from post.forms import PostFilterForm, PostForm, PostForm2
 
 
 def hello_view(request):
@@ -131,9 +132,26 @@ class PostListView(ListView):
 
 def post_list_view(request):
     if request.method == 'GET':
-        posts = Post.objects.all()
+        tags = request.GET.getlist('tags') # Получаем список значений параметра tags из GET-запроса
+        search = request.GET.get('search') # Получаем значение параметра search из GET-запроса
+        ordering = request.GET.get('ordering') # Получаем значение параметра ordering из GET-запроса
 
-        context = {'posts': posts, 'name': "Esen"}
+        posts = Post.objects.all().select_related('author').prefetch_related('tags') # Получаем QuerySet всех объектов модели Post
+
+        if search:
+            posts = posts.filter(Q(title__icontains=search) | Q(text__icontains=search)) # Фильтруем QuerySet по заголовку и тексту
+
+        if tags:
+            posts = posts.filter(tags__id__in=tags).distinct()
+
+        if ordering:
+            posts = posts.order_by(ordering)
+
+        tags_list = Tag.objects.all()
+
+        post_filter_form = PostFilterForm(request.GET)
+
+        context = {'posts': posts, 'name': "Esen", 'tags': tags_list, "post_filter_form": post_filter_form}
 
         return render(request, 'post/post_list.html', context)
     
